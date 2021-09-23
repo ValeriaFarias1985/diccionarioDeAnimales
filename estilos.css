@@ -1,12 +1,13 @@
 body{
     background-image: url(./imagenes/fondo.jpg);
+    background-position: center;
+    background-size: cover;
    
-    
 }
 
 h1{
     text-align: center;
-    font-size: 150px;
+    font-size: 80px !important;
     color: rgb(252, 13, 13);
     padding-top: 150px;
     padding-bottom: 300px;
@@ -24,7 +25,7 @@ h1{
     object-fit: cover;
 }
 .footer{
-    margin-top: 600px;
+    margin-top: 450px;
     background-color: rgb(23, 231, 16);
     font-size: 35px;
 
