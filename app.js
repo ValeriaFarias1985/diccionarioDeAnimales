@@ -340,4 +340,17 @@ var animales = [
         traduccion: "fox",
 
     },
- ];      
+ ];  
+ 
+ 
+
+
+
+ <div class="tarjeta">
+ <div class="card" style="width: 18rem;">
+     <img src="./imagenes/ballena.jpg" class="card-img-top" alt="...">
+     <div class="card-body">
+         <h3>Nombre = Ballena</h3>
+     </div>
+ </div>
+</div>
