@@ -341,7 +341,7 @@ var animales = [{
     },
     {
         imagen: "./imagenes/ajolote_0.jpg",
-        nombre: "ojolote",
+        nombre: "ajolote",
         traduccion: "axolotl",
 
     },
@@ -376,3 +376,54 @@ var animales = [{
 
     },
 ];
+
+
+// metodos de entrada
+
+let botonTraducir = document.querySelector('.button');
+botonTraducir.addEventListener('click', (e) => {
+    e.preventDefault();
+    traducir(animales);
+})
+
+let entradaDeBusqueda = document.querySelector('#input');
+entradaDeBusqueda.addEventListener('keydown', (e) => {
+    if (e.keyCode === 13) {
+        e.preventDefault();
+        traducir(animales);
+    }
+});
+
+
+function traducir(array) {
+
+    let displayInfo = document.querySelector('.mostrarInfo');
+    let animalBuscado = entradaDeBusqueda.value;
+
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];
+        const nombres = array[i].nombre.toLowerCase();
+
+        if (animalBuscado == nombres) {
+            displayInfo.innerHTML = `
+            <div class="tarjeta">
+            <div class="card" style="width: 18rem;">
+              <img src="${element.imagen}" class="card-img-top" alt="...">
+             <div class="card-body">
+                <h3>Español : ${element.nombre}</h3>
+                <h3>Ingles  : ${element.traduccion}</h3>
+               </div>
+            </div>
+            </div>
+            `
+            console.log(nombres);
+            break;
+        } else {
+            displayInfo.innerHTML = `<h1>el ${animalBuscado} no se encontro</h1>`
+            console.log('escribi bien bolud@');
+
+        }
+
+
+    }
+}
