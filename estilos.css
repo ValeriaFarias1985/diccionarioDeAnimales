@@ -30,3 +30,28 @@ h1{
     font-size: 35px;
 
 }
+
+.button{
+    border: none;
+    padding: 10px 20px;
+    background-color: steelblue;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.button:hover{
+    background-color: teal;
+}
+
+.input{
+    border-radius: 20px;
+    width: 30%;
+    border: 2px solid steelblue;
+}
+
+.input:focus{
+    outline: none;
+    color: steelblue;
+    font-weight: 500;
+}
