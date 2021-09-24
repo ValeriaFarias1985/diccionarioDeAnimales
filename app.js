@@ -62,15 +62,11 @@ var animales = [{
         nombre: "canario",
         traduccion: "canary",
 
-
     },
     {
         imagen: "./imagenes/cangrejo.jpg",
         nombre: "cangrejo",
         traduccion: "crab",
-
-
-
     },
     {
         imagen: "./imagenes/canguro.jpeg",
@@ -118,7 +114,6 @@ var animales = [{
         imagen: "./imagenes/cocodrilo.jpg",
         nombre: "cocodrilo ",
         traduccion: "crocodile",
-
 
     },
     {
@@ -408,7 +403,7 @@ entradaDeBusqueda.addEventListener('keydown', (e) => {
 function traducir(array) {
 
     let displayInfo = document.querySelector('.mostrarInfo');
-    let animalBuscado = entradaDeBusqueda.value;
+    let animalBuscado = entradaDeBusqueda.value.toLowerCase();
 
     for (let i = 0; i < array.length; i++) {
         const element = array[i];
@@ -416,7 +411,7 @@ function traducir(array) {
 
         if (animalBuscado == nombres) {
             displayInfo.innerHTML = `
-            <div class="tarjeta">
+            <div class="tarjetas">
             <div class="card" style="width: 18rem;">
               <img src="${element.imagen}" class="card-img-top" alt="...">
              <div class="card-body">
