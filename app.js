@@ -337,7 +337,43 @@ var animales = [
     {
         imagen: "./imagenes/zorro.jpg",
         nombre: "zorro",
-        traduccion: "fox",
+        traduccion: "fox"
+
+    },
+    {
+        imagen: "./imagenes/ajolote_0.jpg",
+        nombre: "ojolote",
+        traduccion: "axolotl",
+
+    },
+    {
+        imagen: "./imagenes/coballo.jpg" ,
+        nombre: "coballo",
+        traduccion: "coballo" ,
+
+    },
+    {
+        imagen: "./imagenes/cuis.jpg" ,
+        nombre:"cuis" ,
+        traduccion:"cuis" ,
+
+    },
+    {
+        imagen: "./imagenes/hamster.jpg",
+        nombre: "hamster",
+        traduccion:"hamster" ,
+
+    },
+    {
+        imagen: "./imagenes/koala.jpg",
+        nombre: "koala",
+        traduccion: "koala",
+
+    },
+    {
+        imagen: "./imagenes/pantera.jpg" ,
+        nombre:"pantera" ,
+        traduccion: "panther",
 
     },
  ];  
@@ -346,11 +382,11 @@ var animales = [
 
 
 
- <div class="tarjeta">
- <div class="card" style="width: 18rem;">
-     <img src="./imagenes/ballena.jpg" class="card-img-top" alt="...">
-     <div class="card-body">
-         <h3>Nombre = Ballena</h3>
-     </div>
- </div>
-</div>
+ //<div class="tarjeta">
+ //<div class="card" style="width: 18rem;">
+   //  <img src="./imagenes/ballena.jpg" class="card-img-top" alt="...">
+    // <div class="card-body">
+     //    <h3>Nombre = Ballena</h3>
+  //   </div>
+ //</div>
+//</div>
