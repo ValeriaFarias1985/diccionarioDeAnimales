@@ -376,22 +376,3 @@ var animales = [{
 
     },
 ];
-
-
-let botonTraducir = document.querySelector('.button');
-botonTraducir.addEventListener('click', (e) => {
-    e.preventDefault();
-    let displayInfo = document.querySelector('.contenedor');
-    displayInfo.innerHTML = '<img src="./imagenes/black-flag.png" alt=""><br><h1>has sido hackeada!!</h1>';
-    console.log('diste click');
-})
-
-
-//<div class="tarjeta">
-//<div class="card" style="width: 18rem;">
-//  <img src="./imagenes/ballena.jpg" class="card-img-top" alt="...">
-// <div class="card-body">
-//    <h3>Nombre = Ballena</h3>
-//   </div>
-//</div>
-//</div>

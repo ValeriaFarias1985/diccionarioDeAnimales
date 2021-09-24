@@ -54,3 +54,8 @@ h1 {
     color: steelblue;
     font-weight: 500;
 }
+
+.mostrarInfo {
+    margin: auto 35vw;
+    align-content: center;
+}
