@@ -17,7 +17,7 @@ var animales = [{
     },
     {
         imagen: "./imagenes/ardilla.png",
-        nombre: "avispa",
+        nombre: "ardilla",
         traduccion: " wasp ",
 
     },
@@ -54,19 +54,22 @@ var animales = [{
     {
         imagen: "./imagenes/camello.jpg",
         nombre: "camello",
-        traduccion: " camel ",
+        traduccion: "camel",
 
     },
     {
         imagen: "./imagenes/canario.jpg",
-        nombre: "canario ",
-        traduccion: " canary ",
+        nombre: "canario",
+        traduccion: "canary",
+
 
     },
     {
         imagen: "./imagenes/cangrejo.jpg",
-        nombre: "cangrejo ",
-        traduccion: " crab ",
+        nombre: "cangrejo",
+        traduccion: "crab",
+
+
 
     },
     {
@@ -84,13 +87,13 @@ var animales = [{
     {
         imagen: "./imagenes/cebra.jpg",
         nombre: "cebra",
-        traduccion: " zebra ",
+        traduccion: "zebra",
 
     },
     {
         imagen: "./imagenes/cerdo.jpg",
         nombre: "cerdo",
-        traduccion: " pig ",
+        traduccion: "pig",
 
     },
     {
@@ -114,7 +117,8 @@ var animales = [{
     {
         imagen: "./imagenes/cocodrilo.jpg",
         nombre: "cocodrilo ",
-        traduccion: " crocodile ",
+        traduccion: "crocodile",
+
 
     },
     {
@@ -197,7 +201,7 @@ var animales = [{
     },
     {
         imagen: "./imagenes/javali.jpg",
-        nombre: "javali",
+        nombre: "jabali",
         traduccion: "wild boar",
 
     },
@@ -373,6 +377,12 @@ var animales = [{
         imagen: "./imagenes/pantera.jpg",
         nombre: "pantera",
         traduccion: "panther",
+
+    },
+    {
+        imagen: "./imagenes/avispa.jpg",
+        nombre: "avispa",
+        traduccion: "wasp",
 
     },
 ];
