@@ -381,6 +381,8 @@ var animales = [{
 let botonTraducir = document.querySelector('.button');
 botonTraducir.addEventListener('click', (e) => {
     e.preventDefault();
+    let displayInfo = document.querySelector('.contenedor');
+    displayInfo.innerHTML = '<img src="./imagenes/black-flag.png" alt=""><br><h1>has sido hackeada!!</h1>';
     console.log('diste click');
 })
 
