@@ -27,9 +27,6 @@
     align-items: center;
     flex-direction: column;
 }
-
-
-
 .colum{
     display: flex;
     flex-direction: column;
