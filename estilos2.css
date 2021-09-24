@@ -13,9 +13,11 @@
 }
 
 .titulo{
-padding-top: 20px;
+    padding-top: 40px;
     text-align: center;
-    color: teal;
+    color: rgb(74, 243, 7);
+    font: size 60px;
+    background-color: rgba(128, 255, 0, 0.246);
 }
 
 .entradas{
@@ -43,7 +45,7 @@ padding-top: 20px;
     font-size: 25px;
     font-weight: bold;
     color: white;
-    background-color: rgba(0, 0, 0, 0.363);
+    background-color: rgba(0, 0, 0, 0.233);
     width: 30%;
     margin: auto;
     padding-bottom: 1px;

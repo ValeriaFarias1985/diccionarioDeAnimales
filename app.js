@@ -60,13 +60,21 @@ var animales = [{
     {
         imagen: "./imagenes/canario.jpg",
         nombre: "canario",
+<<<<<<< Updated upstream
         traduccion: " canary ",
+=======
+        traduccion:" canary ", 
+>>>>>>> Stashed changes
 
     },
     {
         imagen: "./imagenes/cangrejo.jpg",
         nombre: "cangrejo",
+<<<<<<< Updated upstream
         traduccion: " crab ",
+=======
+        traduccion: "crab",
+>>>>>>> Stashed changes
 
     },
     {
@@ -114,7 +122,11 @@ var animales = [{
     {
         imagen: "./imagenes/cocodrilo.jpg",
         nombre: "cocodrilo ",
+<<<<<<< Updated upstream
         traduccion: " crocodile ",
+=======
+        traduccion: "crocodile ", 
+>>>>>>> Stashed changes
 
     },
     {
