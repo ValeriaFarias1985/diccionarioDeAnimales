@@ -1,37 +1,36 @@
-body{
+body {
     background-image: url(./imagenes/fondo.jpg);
     background-position: center;
     background-size: cover;
-   
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 80px !important;
     color: rgb(252, 13, 13);
     padding-top: 150px;
     padding-bottom: 300px;
-   
 }
 
-.tarjetas{
+.tarjetas {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 20px;
 }
 
-.tarjeta img{
+.tarjeta img {
     height: 200px;
     object-fit: cover;
 }
-.footer{
+
+.footer {
     margin-top: 450px;
     background-color: rgb(23, 231, 16);
-    font-size: 35px;
-
+    font-size: 15px;
+    text-align: center;
 }
 
-.button{
+.button {
     border: none;
     padding: 10px 20px;
     background-color: steelblue;
@@ -40,17 +39,17 @@ h1{
     font-size: 1.5rem;
 }
 
-.button:hover{
+.button:hover {
     background-color: teal;
 }
 
-.input{
+.input {
     border-radius: 20px;
     width: 30%;
     border: 2px solid steelblue;
 }
 
-.input:focus{
+.input:focus {
     outline: none;
     color: steelblue;
     font-weight: 500;
