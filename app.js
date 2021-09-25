@@ -393,6 +393,167 @@ var animales = [{
         traduccion: "wasp",
 
     },
+    {
+        imagen: "./imagenes/zorrino.jpg",
+        nombre: "zorino",
+        traduccion:"skunk",
+
+    },
+    {
+        imagen:"./imagenes/suricata.jpg",
+        nombre: "suricata",
+        traduccion:"meerkat",
+    },
+    {
+        imagen: "./imagenes/sapo.jpg",
+        nombre: "sapo",
+        traduccion: "toad",
+
+    },
+    {
+        imagen: "./imagenes/saltamontes.jpg",
+        nombre: "saltamontes",
+        traduccion: "grasshopper",
+
+    },
+    {
+        imagen: "./imagenes/rinoceronte.jpg",
+        nombre: "rinoceronte",
+        traduccion: "rhinoceros",
+
+    },
+    {
+        imagen: "./imagenes/rata.jpg",
+        nombre: "rata",
+        traduccion: "rat",
+
+    },
+    {
+        imagen: "./imagenes/pulpo.jpg",
+        nombre: "pulpo",
+        traduccion: "octopus",
+
+    },
+    {
+        imagen: "./imagenes/puerco espin.jpg",
+        nombre: "puerco espin",
+        traduccion: "porcupine",
+
+    },
+    {
+        imagen: "./imagenes/paloma.jpg",
+        nombre: "paloma",
+        traduccion: "dove",
+
+    },
+    {
+        imagen: "./imagenes/nutria.jpg",
+        nombre: "nutria",
+        traduccion: "Otter",
+
+    },
+    {
+        imagen: "./imagenes/murcielago_redes.jpg",
+        nombre: "murcielago",
+        traduccion: "bat",
+
+    },
+    {
+        imagen: "./imagenes/mapache.jpg",
+        nombre: "mapache",
+        traduccion: "raccoon",
+
+    },
+    {
+        imagen: "./imagenes/mantarraya.jpg",
+        nombre: "mantarraya",
+        traduccion: "Stingray",
+
+    },
+    {
+        imagen: "./imagenes/luciernaga.jpg",
+        nombre: "luciernaga",
+        traduccion: "firefly",
+
+    },
+    {
+        imagen: "./imagenes/lombriz.jpg",
+        nombre: "lombriz",
+        traduccion: "worm",
+
+    },
+    {
+        imagen: "./imagenes/lobo.jpg",
+        nombre: "lobo",
+        traduccion: "wolf",
+
+    },
+    {
+        imagen: "./imagenes/lemur.jpg",
+        nombre: "lemur",
+        traduccion: "lemur",
+
+    },
+    {
+        imagen: "./imagenes/lagarto.jpg",
+        nombre: "lagarto",
+        traduccion: "lizard",
+
+    },
+    {
+        imagen: "./imagenes/lagartija.jpg",
+        nombre: "lagartija",
+        traduccion: "lizard",
+
+    },
+    {
+        imagen: "./imagenes/javali.jpg",
+        nombre: "javali",
+        traduccion: "javali",
+
+    },
+    {
+        imagen: "./imagenes/huron.jpg",
+        nombre: "huron",
+        traduccion: "ferret",
+
+    },
+    {
+        imagen: "./imagenes/gorila.jpg",
+        nombre: "gorila",
+        traduccion: "gorilla",
+
+    },
+    {
+        imagen: "./imagenes/erizo.jpg",
+        nombre: "erizo",
+        traduccion: "sea ​​urchin",
+
+    },
+    {
+        imagen: "./imagenes/dragon de komodo.jpg",
+        nombre: "dragon de komodo",
+        traduccion: "komodo dragon",
+
+    },
+    {
+        imagen: "./imagenes/delfin.jpg",
+        nombre: "delfin",
+        traduccion: "dolphin",
+
+    },
+    {
+        imagen: "../imagenes/culebra.jpg",
+        nombre: "culebra",
+        traduccion: "snake",
+
+    },
+    {
+        imagen: "./imagenes/colobri.jpg",
+        nombre: "colibri",
+        traduccion: "hummingbird",
+
+    },
 ];
 
 
