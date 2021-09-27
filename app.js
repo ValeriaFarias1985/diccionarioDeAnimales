@@ -240,6 +240,7 @@ var animales = [{
         imagen: "./imagenes/oso panda.jpg",
         nombre: "oso panda",
         traduccion: "panda bear",
+        audio:"./audios/WhatsApp Audio 2021-09-27 at 6.04.46 PM.ogg",
 
     },
     {
@@ -608,6 +609,7 @@ function traducir(array) {
              <div class="card-body">
                 <h3>Español : ${element.nombre}</h3>
                 <h3>Ingles  : ${element.traduccion}</h3>
+                <audio>audio : ${element.audio}</audio>
                </div>
             </div>
             </div>
