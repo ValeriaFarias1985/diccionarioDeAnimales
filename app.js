@@ -41,7 +41,7 @@ var animales = [{
     },
     {
         imagen: "./imagenes/burro.jpg",
-        nombre: "burro ",
+        nombre: "burro",
         traduccion: " donkey ",
 
     },
@@ -539,6 +539,36 @@ var animales = [{
         imagen: "./imagenes/colobri.jpg",
         nombre: "colibri",
         traduccion: "hummingbird",
+
+    },
+    {
+        imagen: "./imagenes/Caballitos-de-mar2.jpg",
+        nombre: "caballito de mar",
+        traduccion: "Seahorse",
+
+    },
+    {
+        imagen: "./imagenes/esponja de mar.jpg",
+        nombre: "esponja de mar",
+        traduccion: "sea ​​sponge",
+
+    },
+    {
+        imagen: "./imagenes/estrella de mar.jpg",
+        nombre: "estrella de mar",
+        traduccion: "sea ​​star",
+
+    },
+    {
+        imagen: "./imagenes/carpincho.jpg",
+        nombre: "carpincho",
+        traduccion: "capybara",
+
+    },
+    {
+        imagen: "./imagenes/buho.jpg",
+        nombre: "buho",
+        traduccion: "owl",
 
     },
 ];
