@@ -610,7 +610,7 @@ function traducir(array) {
              <div class="card-body">
                 <h3>Español : ${element.nombre}</h3>
                 <h3>Ingles  : ${element.traduccion}</h3>
-                <audio src="${element.audio}" autoplay loop></audio>
+                <audio src="${element.audio}" controls></audio>
                </div>
             </div>
             </div>
