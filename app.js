@@ -570,6 +570,7 @@ var animales = [{
         imagen: "./imagenes/buho.jpg",
         nombre: "buho",
         traduccion: "owl",
+        
 
     },
 ];
@@ -609,7 +610,7 @@ function traducir(array) {
              <div class="card-body">
                 <h3>Español : ${element.nombre}</h3>
                 <h3>Ingles  : ${element.traduccion}</h3>
-                <audio>audio : ${element.audio}</audio>
+                <audio src="${element.audio}" autoplay loop></audio>
                </div>
             </div>
             </div>
@@ -618,7 +619,7 @@ function traducir(array) {
             break;
         } else {
             displayInfo.innerHTML = `<h1>el ${animalBuscado} no se encontro</h1>`
-            console.log('escribi bien bolud@');
+        
 
         }
 
