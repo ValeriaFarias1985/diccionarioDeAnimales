@@ -2,94 +2,110 @@ var animales = [{
         imagen: "./imagenes/abeja.jpg",
         nombre: "aveja",
         traduccion: "bee",
+        audio: "./audios/abeja.ogg",
     },
     {
         imagen: "./imagenes/aguila.jpg",
         nombre: "Aguila",
         traduccion: "Eagle",
+        audio: "./audios/aguila.ogg",
 
     },
     {
         imagen: "./imagenes/araña.jpg",
         nombre: "Araña",
         traduccion: "spider",
+        audio: "./audios/araña.ogg",
 
     },
     {
         imagen: "./imagenes/ardilla.png",
         nombre: "ardilla",
-        traduccion: " wasp ",
+        traduccion: "wasp",
+        audio: "./audios/ardilla.ogg",
 
     },
     {
         imagen: "./imagenes/ballena.jpg",
         nombre: "ballena",
-        traduccion: " whale ",
+        traduccion: "whale",
+        audio: "./audios/ballena.ogg",
 
     },
     {
         imagen: "./imagenes/bisonte (2).jpg",
         nombre: "bisonte",
         traduccion: "bison",
+        audio:"./audios/bisonte.ogg",
 
     },
     {
         imagen: "./imagenes/bufalo.jpg",
         nombre: "búfalo",
         traduccion: "buffalo",
+        audio: "./audios/bufalo.ogg",
 
     },
     {
         imagen: "./imagenes/burro.jpg",
         nombre: "burro",
         traduccion: " donkey ",
+        audio:"./audios/burro.ogg",
 
     },
     {
         imagen: "./imagenes/caballo.jpg",
         nombre: "caballo",
         traduccion: "horse",
+        audio:"./audios/caballo.ogg",
 
     },
     {
         imagen: "./imagenes/camello.jpg",
         nombre: "camello",
         traduccion: "camel",
+        audio: "./audios/camello.ogg",
 
     },
     {
         imagen: "./imagenes/canario.jpg",
         nombre: "canario",
         traduccion: "canary",
+        audio: "./audios/canario.ogg",
 
     },
     {
         imagen: "./imagenes/cangrejo.jpg",
         nombre: "cangrejo",
         traduccion: "crab",
+        audio: "./audios/cangrejo.ogg",
     },
     {
         imagen: "./imagenes/canguro.jpeg",
         nombre: "canguro",
         traduccion: "kangaroo",
+        audio: "./audios/canguro.ogg",
 
     },
     {
         imagen: "./imagenes/caracol.jpg",
         nombre: "caracol",
         traduccion: "snail",
+        audio: "./audios/caracol.ogg",
 
     },
     {
         imagen: "./imagenes/cebra.jpg",
         nombre: "cebra",
         traduccion: "zebra",
+        audio:  "./audios/cebra.ogg",
 
     },
     {
         imagen: "./imagenes/cerdo.jpg",
         nombre: "cerdo",
         traduccion: "pig",
+        audio: "./audios/cerdo.ogg",
 
     },
     {
@@ -240,7 +256,7 @@ var animales = [{
         imagen: "./imagenes/oso panda.jpg",
         nombre: "oso panda",
         traduccion: "panda bear",
-        audio:"./audios/WhatsApp Audio 2021-09-27 at 6.04.46 PM.ogg",
+        audio:"./audios/oso panda.ogg",
 
     },
     {
@@ -343,6 +359,7 @@ var animales = [{
         imagen: "./imagenes/ajolote_0.jpg",
         nombre: "ajolote",
         traduccion: "axolotl",
+        audio: "./audios/ajolote.ogg",
 
     },
     {
@@ -379,6 +396,7 @@ var animales = [{
         imagen: "./imagenes/avispa.jpg",
         nombre: "avispa",
         traduccion: "wasp",
+        audio: "./audios/avispa.ogg",
 
     },
     {
@@ -442,8 +460,8 @@ var animales = [{
     },
     {
         imagen: "./imagenes/murcielago_redes.jpg",
-        nombre: "murcielago",
-        traduccion: "bat",
+        nombre:"murcielago",
+        traduccion:"bat",
 
     },
     {
@@ -546,6 +564,7 @@ var animales = [{
         imagen: "./imagenes/Caballitos-de-mar2.jpg",
         nombre: "caballito de mar",
         traduccion: "Seahorse",
+        audio: "./audios/caballito de mar.ogg",
 
     },
     {
@@ -564,12 +583,14 @@ var animales = [{
         imagen: "./imagenes/carpincho.jpg",
         nombre: "carpincho",
         traduccion: "capybara",
+        audio: "./audios/carpincho.ogg",
 
     },
     {
         imagen: "./imagenes/buho.jpg",
         nombre: "buho",
         traduccion: "owl",
+        audio: "./audios/buho.ogg",
         
 
     },
