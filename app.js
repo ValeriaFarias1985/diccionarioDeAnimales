@@ -21,7 +21,7 @@ var animales = [{
     {
         imagen: "./imagenes/ardilla.png",
         nombre: "ardilla",
-        traduccion: "wasp",
+        traduccion: "chipmunk",
         audio: "./audios/ardilla.ogg",
 
     },
